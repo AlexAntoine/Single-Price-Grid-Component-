@@ -6,8 +6,55 @@
 
 body{
    
-    background-color: red;
+    background-color: rgb(222, 239, 240);
 }
+
+h1{
+    font-size: 1em;
+}
+
+#money-back{
+    font-size: 1em;
+}
+
+.sub-container{
+    padding-top: 30px;
+    /* add the color */
+}
+
+.sub-container .price, #per-month {
+    display: inline-block;
+}
+
+.btn{
+    padding: 5px 35px;
+    margin-left: 34px;
+    width: 12em;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+#per-month{
+    margin-left: 10px;
+}
+
+#description{
+    font-size: 1em;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.container{
+    background-color: #fff;  
+}
+
 
 .footer{
     position: absolute;
