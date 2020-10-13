@@ -36,6 +36,45 @@ body{
     font-size: 1em;
 }
 
+/* Second Container */
+
+.second-container{
+    background-color: hsl(179, 62%, 43%);
+}
+
+.price, .monthly-plan{
+    display: inline;
+    margin-left: 10px;
+}
+.monthly-subscription, p, .price {
+    color: #fff;
+}
+
+.monthly-subscription{
+    padding-top: 20px;
+    font-size: 1em;
+}
+
+.description{
+    margin-top: 5px;
+}
+
+.btn{
+    background-color: green;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+    width: 20%;
+}
+
+.price{
+    margin-top: 20px;
+}
+
+.monthly-plan{
+    color: hsl(218, 22%, 67%);
+}
+
+
 .footer{
     position: absolute;
     bottom: 0;
