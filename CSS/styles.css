@@ -83,6 +83,30 @@ body{
     color: hsl(218, 22%, 67%);
 }
 
+/* Third contianer */
+.description{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(179, 62%, 43%);
+    margin-top: 0;
+}
+
+.description p{
+    flex-wrap: wrap;
+    color: rgba(255, 255, 255, 0.774);
+}
+
+.title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.description p, .title {
+    margin-left: 10px;
+}
+
 
 .footer{
     position: absolute;
