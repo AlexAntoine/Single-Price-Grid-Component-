@@ -84,14 +84,14 @@ body{
 }
 
 /* Third contianer */
-.description{
+.third-container{
     display: flex;
     flex-direction: column;
-    background-color: hsl(179, 62%, 43%);
+    background-color: hsl(179, 48%, 51%);
     margin-top: 0;
 }
 
-.description p{
+.third-container p{
     flex-wrap: wrap;
     color: rgba(255, 255, 255, 0.774);
 }
@@ -103,7 +103,7 @@ body{
     font-size: 1.5em;
 }
 
-.description p, .title {
+.third-container p, .title {
     margin-left: 10px;
 }
 
